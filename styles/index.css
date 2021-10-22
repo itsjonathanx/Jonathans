@@ -53,8 +53,20 @@ main {
     width: 1000px;
 }
 
-main h1 {
-    padding-top: 3em;
+.destaque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaque img {
+    padding-left: 25px;
+    margin-top: 8em;
+}
+
+.destaque h1 {
+    font-size: 40px;
+    color: rebeccapurple;
     text-align: center;
-    color:rgb(74, 30, 146);
+    justify-content: center;
 }
