@@ -23,15 +23,20 @@ header {
     background-color: #fff;
 }
 
+#logo {
+    margin-right: 2rem;
+}
+
 main {
     max-width: 980px;
 }
+
 
 #menu {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 2rem;
+    gap: .5rem;
 }
 
 .options {
@@ -43,6 +48,10 @@ main {
 
 .options:hover {
     background: #f0f0f0;
+}
+
+#redes-sociais {
+    margin-left: 3rem;
 }
 
 #menu li span {
