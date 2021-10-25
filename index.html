@@ -13,19 +13,20 @@
     </head>
     <body>
         <header id="header">
-            <nav id="nav">
-                <a href="/"><img src="./img/logo.ico" width="45" height="45" alt="logo da empresa"></a>        
-
-                <ul id="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-
-                <ul id="redes-sociais">
-                    <li><a href="https://www.facebook.com/user.Jonathan939" target="_blank" rel="noopener noreferrer"><img src="./img/facebook.png" width="30px" height="30px" alt="facebook"></a></li>
-                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/whatsapp.png" width="30px" height="30px" alt="whatsapp"></a></li>
-                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/linkedin.png" width="30px" height="30px" alt="linkedin"></a></li>
+            <a id="logo" href="/"><img src="./img/logo.ico" width="45" height="45" alt="logo da empresa"></a>
+            <nav id="nav">    
+                <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu 
+                    <span id="hamburguer"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a class="options" href="#">Inicio</a></li>
+                    <li><a class="options" href="#">Serviços</a></li>
+                    <li><a class="options" href="#">Contato</a></li>
+                    <li id="redes-sociais">
+                        <span><a href="https://www.facebook.com/user.Jonathan939" target="_blank" rel="noopener noreferrer"><img src="./img/facebook.png" width="35px" height="35px" alt="facebook"></a></span>
+                        <span><a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/whatsapp.png" width="35px" height="35px" alt="whatsapp"></a></span>
+                        <span><a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/linkedin.png" width="35px" height="35px" alt="linkedin"></a></span>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -47,5 +48,7 @@
         <footer>
 
         </footer>
+        
+        <script type="text/javascript" src="./js/btnMobile.js"></script>
     </body>
 </html>
